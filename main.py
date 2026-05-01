@@ -45,4 +45,3 @@ if __name__ == "__main__":
     t = Thread(target=run_server)
     t.start()
     iniciar_bot()
-    

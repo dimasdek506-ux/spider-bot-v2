@@ -32,16 +32,17 @@ def iniciar_bot():
     print("🕸️ Spider Bot System Iniciado!")
     while True:
         try:
+            # Envia o primeiro sinal logo que o bot liga
             bot.send_message(CHANNEL_ID, sinal_aviator(), parse_mode="Markdown")
             time.sleep(300)
             bot.send_message(CHANNEL_ID, sinal_bacbo(), parse_mode="Markdown")
             time.sleep(300)
         except Exception as e:
             print(f"Erro: {e}")
-            time.sleep(60)
+            time.sleep(10)
 
 if __name__ == "__main__":
     t = Thread(target=run_server)
     t.start()
     iniciar_bot()
-  
+    

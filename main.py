@@ -5,7 +5,7 @@ from flask import Flask
 from threading import Thread
 
 # --- CONFIGURAÇÕES ---
-TOKEN = "7976939981:AAGy6p6vK0o64f_6xX85jU6kUo64f_6xX85"
+TOKEN = "8764470817:AAF-mZPaqtcx7rL9Jg13UX0JWiM1TZa49DQ"
 CHANNEL_ID = "@SpiderCasinoBuster"
 LINK_AFILIADO = "https://bantubet.co.ao/affiliates/?btag=2721516"
 
